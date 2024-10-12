@@ -1,0 +1,88 @@
+/* SiderBar.css */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 15vh;
+  color: #000000;
+  font-family: "Sarabun";
+  font-weight: 600;
+  font-style: normal;
+  background-color: #f76f0094;
+}
+
+.logo {
+  object-fit: contain;
+  width: 100px;
+  height: 100px;
+}
+
+.sider {
+  height: 100vh;
+  border-right: 0;
+  color: #000000;
+  font-family: "Sarabun";
+  font-weight: 400;
+  font-style: normal;
+  background-color: #fcbd8988;
+}
+
+.content {
+  padding: 24px;
+  margin: 0;
+  min-height: 280px;
+  word-break: break-word;
+  white-space: normal;
+  font-family: "Sarabun";
+  font-weight: 400;
+  font-style: normal;
+  background-color: #ffffff
+}
+
+.breadcrumb {
+  margin: 16px 0;
+  font-family: "Sarabun";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.custom-menu {
+  background-color: #fcbd8900 !important;
+  /* สีพื้นหลังของเมนูเป็นสีส้มอ่อน */
+}
+
+.ant-menu-item {
+  background-color: #f77100 !important;
+  /* / เปลี่ยนสีพื้นหลังของเมนู / */
+  color: white !important;
+  /* / เปลี่ยนสีตัวอักษร / */
+  font-family: "Sarabun";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ant-menu-item:hover {
+  background-color: rgba(247, 113, 0, 0.5) !important;
+  /* / สีเมื่อ hover / */
+  color: white !important;
+}
+
+.ant-menu-item-selected {
+  background-color: rgba(247, 113, 0, 0.7) !important;
+  /* / สีเมื่อถูกเลือก / */
+  color: white !important;
+}
+
+/* / เปลี่ยนสีของ SubMenu (menu ที่มี children) / */
+.ant-menu-submenu-title {
+  background-color: #f77100 !important;
+  color: white !important;
+}
+
+/* / เปลี่ยนสีเมื่อ hover บน SubMenu */
+.ant-menu-submenu-title:hover {
+  background-color: rgba(247, 113, 0, 0.5) !important;
+  color: white !important;
+}
+
